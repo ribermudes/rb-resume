@@ -1,0 +1,15 @@
+html,body {
+  padding:0; margin:0;
+}
+
+.dev-me {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 80vh;
+  position: relative;
+}
+
+.name {
+  font-family: SignPainter-HouseScript;
+}

@@ -1,5 +1,6 @@
 html,body {
   padding:0; margin:0;
+  font-family: 'Ledger', serif;
 }
 
 .dev-me {
@@ -10,6 +11,33 @@ html,body {
   position: relative;
 }
 
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 1em;
+}
+
+.nav-options a {
+  text-decoration: none;
+  color: black;
+  padding: 2em;
+  text-shadow: -2px -2px 10px gray, 2px -2px 10px gray, -2px 2px 10px gray, 2px 2px 10px gray;
+}
+
+.nav-options a:hover {
+  color:white;
+}
+
 .name {
-  font-family: SignPainter-HouseScript;
+  font-family: 'Nixie One', cursive;
+  text-shadow: -2px -2px 10px gray, 2px -2px 10px gray, -2px 2px 10px gray, 2px 2px 10px gray;
+
+}
+
+.header {
+  display: flex;
+  margin: 1em;
+  padding: 1em;
+  align-items: center;
 }
